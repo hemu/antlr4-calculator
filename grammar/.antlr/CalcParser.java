@@ -1,4 +1,4 @@
-// Generated from /Users/hemu/scratch/antlr/grammar/Calc.g4 by ANTLR 4.7.1
+// Generated from /Users/hemu/gocode/src/github.com/hemu/antlr-calc/grammar/Calc.g4 by ANTLR 4.7.1
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.*;

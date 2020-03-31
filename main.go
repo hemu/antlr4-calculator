@@ -90,6 +90,7 @@ func main() {
 	p := parser.NewCalcParser(tokenStream)
 
 	listener := &calcListener{}
+	// p.Start() sets the root node of the tree.
 	antlr.ParseTreeWalkerDefault.Walk(listener, p.Start())
 
 	fmt.Println(listener.Pop())
